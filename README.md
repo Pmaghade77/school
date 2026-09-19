@@ -540,7 +540,6 @@ See [`backend/.env.example`](backend/.env.example) for the full list. Required:
 - **Security:** never commit `.env`; use `.env.example` with placeholder values only.
 - **CORS:** add production frontend origin to `ALLOWED_ORIGINS`.
 - **Forgot password:** generic response prevents email enumeration; unregistered emails receive no OTP but same message is shown.
-
 ---
 
 ## Related docs
